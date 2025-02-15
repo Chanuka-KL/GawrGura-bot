@@ -12,7 +12,7 @@ bot.start((ctx) => {
 
 // Respond with an image when the user sends a photo
 bot.on('photo', (ctx) => {
-  ctx.replyWithPhoto('https://path-to-your-image.jpg', { caption: 'Here’s an image for you!' });
+  ctx.replyWithPhoto('https://raw.githubusercontent.com/Chanuka-KL/GawrGura-bot/refs/heads/main/c73ba4cc39dfe8e1a15997e02aebe565.jpg', { caption: 'HELLO 🎀' });
 });
 
 // Respond with a voice message
