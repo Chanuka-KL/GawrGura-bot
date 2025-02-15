@@ -23,6 +23,10 @@ jobs:
       with:
         node-version: '14'  # Specify the Node.js version you're using (adjust as needed)
 
+    # Clear npm cache to avoid corrupted packages
+    - name: Clear npm cache
+      run: npm cache clean --force
+
     # Install dependencies
     - name: Install dependencies
       run: npm install  # This will install your node modules listed in package.json
