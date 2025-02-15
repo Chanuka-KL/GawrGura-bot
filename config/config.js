@@ -1,4 +1,4 @@
 module.exports = {
-    BOT_TOKEN: 'YOUR_BOT_API_KEY_HERE',
+    BOT_TOKEN: '7556543634:AAGGTiaM_IKqGIOf68a6rmwg6j87KFukVKs',
     // Add any other configurations here
 };
