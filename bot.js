@@ -17,7 +17,7 @@ bot.on('photo', (ctx) => {
 
 // Respond with a voice message
 bot.command('voice', (ctx) => {
-  ctx.replyWithVoice('https://path-to-your-voice-message.ogg');
+  ctx.replyWithVoice('https://github.com/Chanuka-KL/GawrGura-bot/raw/refs/heads/main/Pew.wav');
 });
 
 // React to messages
